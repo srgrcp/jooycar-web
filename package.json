@@ -1,0 +1,28 @@
+{
+  "name": "jooycar-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "date-fns": "^3.6.0",
+    "geolib": "3.3.1",
+    "mapbox-gl": "^3.5.1",
+    "nuxt": "^3.12.3",
+    "nuxt-mapbox": "^1.6.0",
+    "vue": "latest"
+  },
+  "packageManager": "yarn@4.3.1+sha512.af78262d7d125afbfeed740602ace8c5e4405cd7f4735c08feb327286b2fdb2390fbca01589bfd1f50b1240548b74806767f5a063c94b67e431aabd0d86f7774",
+  "devDependencies": {
+    "@types/geojson": "^7946.0.14",
+    "typescript": "5.5.2"
+  }
+}
